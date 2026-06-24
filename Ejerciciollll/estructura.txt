@@ -1,0 +1,150 @@
+Listado de rutas de carpetas
++---build
+¦   +---classes
+¦   ¦   +---java
+¦   ¦       +---main
+¦   ¦       ¦   +---org
+¦   ¦       ¦       +---app
+¦   ¦       ¦           ¦   Main.class
+¦   ¦       ¦           ¦   
+¦   ¦       ¦           +---dtos
+¦   ¦       ¦           ¦       DonationAssignmentDTO.class
+¦   ¦       ¦           ¦       DonationDTO.class
+¦   ¦       ¦           ¦       RecaudacionCategoriaDTO.class
+¦   ¦       ¦           ¦       RecaudacionDonanteDTO.class
+¦   ¦       ¦           ¦       
+¦   ¦       ¦           +---models
+¦   ¦       ¦           ¦       Donation.class
+¦   ¦       ¦           ¦       DonationAssignment.class
+¦   ¦       ¦           ¦       DonationStatus.class
+¦   ¦       ¦           ¦       DonorType.class
+¦   ¦       ¦           ¦       
+¦   ¦       ¦           +---services
+¦   ¦       ¦           ¦       DonationService.class
+¦   ¦       ¦           ¦       
+¦   ¦       ¦           +---utils
+¦   ¦       ¦                   HibernateUtil.class
+¦   ¦       ¦                   
+¦   ¦       +---test
+¦   ¦           +---org
+¦   ¦               +---app
+¦   ¦                   +---services
+¦   ¦                   ¦       DonationServiceTest.class
+¦   ¦                   ¦       
+¦   ¦                   +---utils
+¦   ¦                           HibernateUtil.class
+¦   ¦                           
+¦   +---generated
+¦   ¦   +---sources
+¦   ¦       +---annotationProcessor
+¦   ¦       ¦   +---java
+¦   ¦       ¦       +---main
+¦   ¦       ¦       +---test
+¦   ¦       +---headers
+¦   ¦           +---java
+¦   ¦               +---main
+¦   ¦               +---test
+¦   +---libs
+¦   ¦       Ejerciciollll-1.0-SNAPSHOT.jar
+¦   ¦       
+¦   +---reports
+¦   ¦   +---tests
+¦   ¦       +---test
+¦   ¦           ¦   index.html
+¦   ¦           ¦   
+¦   ¦           +---classes
+¦   ¦           ¦       org.app.services.DonationServiceTest.html
+¦   ¦           ¦       
+¦   ¦           +---css
+¦   ¦           ¦       base-style.css
+¦   ¦           ¦       style.css
+¦   ¦           ¦       
+¦   ¦           +---js
+¦   ¦           ¦       report.js
+¦   ¦           ¦       
+¦   ¦           +---packages
+¦   ¦                   org.app.services.html
+¦   ¦                   
+¦   +---resources
+¦   ¦   +---main
+¦   ¦   ¦       hibernate.cfg.xml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           hibernate-test.cfg.xml
+¦   ¦           
+¦   +---test-results
+¦   ¦   +---test
+¦   ¦       ¦   TEST-org.app.services.DonationServiceTest.xml
+¦   ¦       ¦   
+¦   ¦       +---binary
+¦   ¦               output.bin
+¦   ¦               output.bin.idx
+¦   ¦               results.bin
+¦   ¦               
+¦   +---tmp
+¦       +---compileJava
+¦       ¦   ¦   previous-compilation-data.bin
+¦       ¦   ¦   
+¦       ¦   +---compileTransaction
+¦       ¦       +---backup-dir
+¦       ¦       +---stash-dir
+¦       ¦               DonationService.class.uniqueId0
+¦       ¦               
+¦       +---compileTestJava
+¦       ¦   ¦   previous-compilation-data.bin
+¦       ¦   ¦   
+¦       ¦   +---compileTransaction
+¦       ¦       +---backup-dir
+¦       ¦       +---stash-dir
+¦       ¦               DonationServiceTest.class.uniqueId0
+¦       ¦               
+¦       +---jar
+¦       ¦       MANIFEST.MF
+¦       ¦       
+¦       +---test
++---gradle
+¦   +---wrapper
+¦           gradle-wrapper.jar
+¦           gradle-wrapper.properties
+¦           
++---src
+    +---main
+    ¦   +---java
+    ¦   ¦   +---org
+    ¦   ¦       +---app
+    ¦   ¦           ¦   Main.java
+    ¦   ¦           ¦   
+    ¦   ¦           +---dtos
+    ¦   ¦           ¦       DonationAssignmentDTO.java
+    ¦   ¦           ¦       DonationDTO.java
+    ¦   ¦           ¦       RecaudacionCategoriaDTO.java
+    ¦   ¦           ¦       RecaudacionDonanteDTO.java
+    ¦   ¦           ¦       
+    ¦   ¦           +---models
+    ¦   ¦           ¦       Donation.java
+    ¦   ¦           ¦       DonationAssignment.java
+    ¦   ¦           ¦       DonationStatus.java
+    ¦   ¦           ¦       DonorType.java
+    ¦   ¦           ¦       
+    ¦   ¦           +---services
+    ¦   ¦           ¦       DonationService.java
+    ¦   ¦           ¦       
+    ¦   ¦           +---utils
+    ¦   ¦                   HibernateUtil.java
+    ¦   ¦                   
+    ¦   +---resources
+    ¦           hibernate.cfg.xml
+    ¦           
+    +---test
+        +---java
+        ¦   +---org
+        ¦       +---app
+        ¦           +---services
+        ¦           ¦       DonationServiceTest.java
+        ¦           ¦       
+        ¦           +---utils
+        ¦                   HibernateUtil.java
+        ¦                   
+        +---resources
+                hibernate-test.cfg.xml
+                

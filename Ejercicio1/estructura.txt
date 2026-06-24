@@ -1,0 +1,158 @@
+Listado de rutas de carpetas para el volumen Nuevo vol
+El número de serie del volumen es AC6C-C108
+D:.
+|   .gitignore
+|   build.gradle
+|   estructura.txt
+|   gradlew
+|   gradlew.bat
+|   settings.gradle
+|   
++---.gradle
+|   |   file-system.probe
+|   |   
+|   +---8.10
+|   |   |   gc.properties
+|   |   |   
+|   |   +---checksums
+|   |   |       checksums.lock
+|   |   |       md5-checksums.bin
+|   |   |       sha1-checksums.bin
+|   |   |       
+|   |   +---dependencies-accessors
+|   |   |       gc.properties
+|   |   |       
+|   |   +---executionHistory
+|   |   |       executionHistory.bin
+|   |   |       executionHistory.lock
+|   |   |       
+|   |   +---expanded
+|   |   +---fileChanges
+|   |   |       last-build.bin
+|   |   |       
+|   |   +---fileHashes
+|   |   |       fileHashes.bin
+|   |   |       fileHashes.lock
+|   |   |       resourceHashesCache.bin
+|   |   |       
+|   |   \---vcsMetadata
+|   +---8.13
+|   |   |   gc.properties
+|   |   |   
+|   |   +---checksums
+|   |   |       checksums.lock
+|   |   |       md5-checksums.bin
+|   |   |       sha1-checksums.bin
+|   |   |       
+|   |   +---executionHistory
+|   |   |       executionHistory.bin
+|   |   |       executionHistory.lock
+|   |   |       
+|   |   +---expanded
+|   |   +---fileChanges
+|   |   |       last-build.bin
+|   |   |       
+|   |   +---fileHashes
+|   |   |       fileHashes.bin
+|   |   |       fileHashes.lock
+|   |   |       resourceHashesCache.bin
+|   |   |       
+|   |   \---vcsMetadata
+|   +---buildOutputCleanup
+|   |       buildOutputCleanup.lock
+|   |       cache.properties
+|   |       outputFiles.bin
+|   |       
+|   \---vcs-1
+|           gc.properties
+|           
++---.idea
+|       .gitignore
+|       compiler.xml
+|       gradle.xml
+|       material_theme_project_new.xml
+|       misc.xml
+|       workspace.xml
+|       
++---build
+|   +---classes
+|   |   \---java
+|   |       \---main
+|   |           \---org
+|   |               \---example
+|   |                   |   Main.class
+|   |                   |   
+|   |                   +---dto
+|   |                   |       ProductoDTO.class
+|   |                   |       
+|   |                   +---models
+|   |                   |       Producto.class
+|   |                   |       
+|   |                   +---services
+|   |                   |       ProductoService.class
+|   |                   |       
+|   |                   \---utils
+|   |                           HibernateUtil.class
+|   |                           
+|   +---generated
+|   |   \---sources
+|   |       +---annotationProcessor
+|   |       |   \---java
+|   |       |       \---main
+|   |       \---headers
+|   |           \---java
+|   |               \---main
+|   +---libs
+|   |       Ejercicio1-1.0-SNAPSHOT.jar
+|   |       
+|   +---resources
+|   |   \---main
+|   |           hibernate.cfg.xml
+|   |           
+|   \---tmp
+|       +---compileJava
+|       |       previous-compilation-data.bin
+|       |       
+|       \---jar
+|               MANIFEST.MF
+|               
++---gradle
+|   \---wrapper
+|           gradle-wrapper.jar
+|           gradle-wrapper.properties
+|           
+\---src
+    +---main
+    |   +---java
+    |   |   \---org
+    |   |       \---example
+    |   |           |   Main.java
+    |   |           |   
+    |   |           +---dto
+    |   |           |       ProductoDTO.java
+    |   |           |       
+    |   |           +---models
+    |   |           |       Producto.java
+    |   |           |       
+    |   |           +---services
+    |   |           |       ProductoService.java
+    |   |           |       
+    |   |           \---utils
+    |   |                   HibernateUtil.java
+    |   |                   
+    |   \---resources
+    |           hibernate.cfg.xml
+    |           
+    \---test
+        +---java
+        |   \---org
+        |       \---example
+        |           +---services
+        |           |       ProductoServiceTest.java
+        |           |       
+        |           \---utils
+        |                   HibernateUtil.java
+        |                   
+        \---resources
+                hibernate-test.cfg.xml
+                
